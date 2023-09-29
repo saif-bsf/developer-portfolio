@@ -1,7 +1,7 @@
 import { createClient } from '@sanity/client';
 
 export const client = createClient({
-  projectId: 'i9qw4lnn',
+  projectId: 'yhak3a9v',
   dataset: 'production',
   useCdn: true,
   apiVersion: '2023-08-16', // use current date (YYYY-MM-DD) to target the latest API version
