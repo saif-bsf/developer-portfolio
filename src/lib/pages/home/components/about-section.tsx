@@ -53,7 +53,7 @@ export const AboutSection = (props: any) => {
               justifyContent='center'
               alignItems='center'
             >
-              {socialMediaList.length > 0 &&
+              {socialMediaList?.length > 0 &&
                 socialMediaList?.map((socialMedia: any) => (
                   <Link
                     to={socialMedia?.socialMediaLink}

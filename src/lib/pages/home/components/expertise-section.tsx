@@ -35,7 +35,7 @@ export const ExpertiseSection = (props: any) => {
               cardIndex={index + 1}
               width={{
                 base: '100%',
-                md: `calc(100% / ${expertiseList.length})`,
+                md: `calc(100% / ${expertiseList?.length})`,
               }}
             />
           ))}

@@ -51,7 +51,7 @@ export const Path = (props: PathProps) => {
         >
           <Box className='connectionLine'>
             <Hexagon
-              isAnimate={index === myJourney.length - 1}
+              isAnimate={index === myJourney?.length - 1}
               className='hexagon'
               {...hexagonProps}
             />
@@ -59,7 +59,7 @@ export const Path = (props: PathProps) => {
               <Chips
                 title={journey?.companyName}
                 description={`${journey?.yearOfJoining} - ${
-                  index === myJourney.length - 1
+                  index === myJourney?.length - 1
                     ? 'Present'
                     : journey?.yearOfResignation
                 }`}
