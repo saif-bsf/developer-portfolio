@@ -10,7 +10,7 @@
     "lint:fix": "eslint src --fix && pnpm format",
     "lint:turbo": "npx turbo lint",
     "typecheck": "tsc",
-    "typecheck:turbo": "npx turbo type-check",
+    "typecheck:turbo": "npx turbo typecheck",
     "format": "prettier --write src",
     "up-interactive": "pnpm up -i",
     "up-latest": "pnpm up-interactive -L",
@@ -54,10 +54,6 @@
     "standard-version": "^9.5.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
-  },
-  "engines": {
-    "node": ">=16.x.x",
-    "pnpm": ">=8"
   },
   "packageManager": "pnpm@8.1.0"
 }
