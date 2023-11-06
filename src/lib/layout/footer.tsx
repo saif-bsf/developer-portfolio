@@ -15,7 +15,7 @@ export const Footer = () => {
           href='https://www.portfolio-quiz.com/@tanishraj'
           isExternal
         >
-          Tanishraj
+          Saif Sheikh
         </Link>
       </Text>
     </Flex>
